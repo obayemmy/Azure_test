@@ -1,12 +1,13 @@
-com\kuda\testCases\CustomerInfoManagement.class
 com\kuda\dataSupplier\CustomerSignUp.class
-com\kuda\utility\Utility.class
 com\kuda\dataSupplier\BookerDetails.class
 com\kuda\postingsMgt\ValidateSingleJournalTransfer.class
+com\kuda\testCases\GeneralLedgerManagement.class
 com\kuda\testCases\ValidateLogin.class
-com\kuda\base\TestBase.class
 com\kuda\testCases\CustomerAccountManagement.class
 com\kuda\postingsMgt\ValidateLocalTransfer.class
 com\kuda\testCases\BranchManagement.class
-com\kuda\assertions\Assertions.class
 com\kuda\testCases\UserManagement.class
+com\kuda\testCases\CustomerInfoManagement.class
+com\kuda\utility\Utility.class
+com\kuda\base\TestBase.class
+com\kuda\assertions\Assertions.class
