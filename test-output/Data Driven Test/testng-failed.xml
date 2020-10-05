@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Headerlinks(failed)">
+    <classes>
+      <class name="com.gigm.testcases.ValidateLogin">
+        <methods>
+          <include name="Login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gigm.testcases.ValidateLogin -->
+    </classes>
+  </test> <!-- Headerlinks(failed) -->
+</suite> <!-- Failed suite [Data Driven Test] -->
