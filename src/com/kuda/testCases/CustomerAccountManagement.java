@@ -228,7 +228,7 @@ public class CustomerAccountManagement extends TestBase  {
 		WebElement frequencyRadioBt = driver.findElement(By.id(Utility.fetchLocator("frequency_ID")));
 		clickFrequencyBtn.doubleClick(frequencyRadioBt).perform();
 		Thread.sleep(2000);
-		//Log.info("test ran successfully ");
+		System.out.println("test ran successfully ");
 
 		
 	}
