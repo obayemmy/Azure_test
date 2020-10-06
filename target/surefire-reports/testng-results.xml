@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="283147" started-at="2020-10-05T08:07:04 PDT" finished-at="2020-10-05T08:11:47 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="283147" started-at="2020-10-05T08:07:04 PDT" finished-at="2020-10-05T08:11:47 PDT">
+      <class name="com.kuda.testCases.BranchManagement">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.BranchManagement@598067a5]" name="setUp" is-config="true" duration-ms="9073" started-at="2020-10-05T08:07:31 PDT" finished-at="2020-10-05T08:07:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewBranches()[pri:1, instance:com.kuda.testCases.BranchManagement@598067a5]" name="viewBranches" duration-ms="19541" started-at="2020-10-05T08:07:40 PDT" finished-at="2020-10-05T08:07:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBranches -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.BranchManagement@598067a5]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-10-05T08:07:59 PDT" finished-at="2020-10-05T08:07:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.testCases.BranchManagement -->
+      <class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@553f17c]" name="setUp" is-config="true" duration-ms="9289" started-at="2020-10-05T08:11:06 PDT" finished-at="2020-10-05T08:11:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="glToglTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@553f17c]" name="glToglTransfer" duration-ms="31741" started-at="2020-10-05T08:11:16 PDT" finished-at="2020-10-05T08:11:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- glToglTransfer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@553f17c]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-10-05T08:11:47 PDT" finished-at="2020-10-05T08:11:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.postingsMgt.ValidateSingleJournalTransfer -->
+      <class name="com.kuda.testCases.CustomerAccountManagement">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="setUp" is-config="true" duration-ms="9215" started-at="2020-10-05T08:07:59 PDT" finished-at="2020-10-05T08:08:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewCASAccount()[pri:1, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="viewCASAccount" duration-ms="21232" started-at="2020-10-05T08:08:08 PDT" finished-at="2020-10-05T08:08:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCASAccount -->
+        <test-method status="PASS" signature="searchByAccountName()[pri:2, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="searchByAccountName" duration-ms="2666" started-at="2020-10-05T08:08:30 PDT" finished-at="2020-10-05T08:08:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAccountName -->
+        <test-method status="PASS" signature="searchByAccountNumber()[pri:3, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="searchByAccountNumber" duration-ms="2916" started-at="2020-10-05T08:08:32 PDT" finished-at="2020-10-05T08:08:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAccountNumber -->
+        <test-method status="PASS" signature="searchByAccountEmail()[pri:4, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="searchByAccountEmail" duration-ms="3114" started-at="2020-10-05T08:08:35 PDT" finished-at="2020-10-05T08:08:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAccountEmail -->
+        <test-method status="PASS" signature="viewAccountBalance()[pri:5, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="viewAccountBalance" duration-ms="6309" started-at="2020-10-05T08:08:38 PDT" finished-at="2020-10-05T08:08:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountBalance -->
+        <test-method status="PASS" signature="editCustomerAccount()[pri:6, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="editCustomerAccount" duration-ms="16277" started-at="2020-10-05T08:08:45 PDT" finished-at="2020-10-05T08:09:01 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerAccount -->
+        <test-method status="PASS" signature="createCustomerAccount()[pri:7, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="createCustomerAccount" duration-ms="23016" started-at="2020-10-05T08:09:01 PDT" finished-at="2020-10-05T08:09:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="4385" started-at="2020-10-05T08:09:24 PDT" finished-at="2020-10-05T08:09:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.testCases.CustomerAccountManagement -->
+      <class name="com.kuda.postingsMgt.ValidateLocalTransfer">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@5f341870]" name="setUp" is-config="true" duration-ms="9511" started-at="2020-10-05T08:10:19 PDT" finished-at="2020-10-05T08:10:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLocalFundTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@5f341870]" name="verifyLocalFundTransfer" duration-ms="37226" started-at="2020-10-05T08:10:29 PDT" finished-at="2020-10-05T08:11:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocalFundTransfer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@5f341870]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-10-05T08:11:06 PDT" finished-at="2020-10-05T08:11:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.postingsMgt.ValidateLocalTransfer -->
+      <class name="com.kuda.testCases.CustomerInfoManagement">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="setUp" is-config="true" duration-ms="9216" started-at="2020-10-05T08:09:28 PDT" finished-at="2020-10-05T08:09:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewCustomers()[pri:1, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="viewCustomers" duration-ms="20981" started-at="2020-10-05T08:09:38 PDT" finished-at="2020-10-05T08:09:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCustomers -->
+        <test-method status="PASS" signature="searchCustomerByName()[pri:2, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="searchCustomerByName" duration-ms="3258" started-at="2020-10-05T08:09:59 PDT" finished-at="2020-10-05T08:10:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerByName -->
+        <test-method status="PASS" signature="searchByCustomerEmail()[pri:3, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="searchByCustomerEmail" duration-ms="3295" started-at="2020-10-05T08:10:02 PDT" finished-at="2020-10-05T08:10:05 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerEmail -->
+        <test-method status="PASS" signature="searchCustomerById()[pri:4, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="searchCustomerById" duration-ms="3218" started-at="2020-10-05T08:10:05 PDT" finished-at="2020-10-05T08:10:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerById -->
+        <test-method status="PASS" signature="createCustomer()[pri:5, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="createCustomer" duration-ms="10936" started-at="2020-10-05T08:10:08 PDT" finished-at="2020-10-05T08:10:19 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@14bf9759]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-10-05T08:10:19 PDT" finished-at="2020-10-05T08:10:19 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.testCases.CustomerInfoManagement -->
+      <class name="com.kuda.testCases.ValidateLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.ValidateLogin@31ef45e3]" name="setUp" is-config="true" duration-ms="10514" started-at="2020-10-05T08:07:04 PDT" finished-at="2020-10-05T08:07:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSign()[pri:1, instance:com.kuda.testCases.ValidateLogin@31ef45e3]" name="googleSign" duration-ms="15723" started-at="2020-10-05T08:07:15 PDT" finished-at="2020-10-05T08:07:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSign -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.ValidateLogin@31ef45e3]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-10-05T08:07:30 PDT" finished-at="2020-10-05T08:07:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.testCases.ValidateLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

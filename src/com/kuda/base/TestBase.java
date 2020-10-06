@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -26,7 +27,10 @@ public class TestBase {
 		if(Utility.fetchProperty("browserName").toString().equalsIgnoreCase("chrome")) {
 			//set property and create instance of chrome browser
 			System.setProperty("webdriver.chrome.driver", projectPath+"\\Drivers\\chromedriver.exe");
-			driver =new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			Boolean headless = Boolean.valueOf(String.valueOf(Utility.fetchProperty("headless")));
+			options.setHeadless(headless);
+			driver =new ChromeDriver(options);
 			//System.out.println(browserName + " browser running");
 		}
 		else if(Utility.fetchProperty("browserName").toString().equalsIgnoreCase("firefox")) {

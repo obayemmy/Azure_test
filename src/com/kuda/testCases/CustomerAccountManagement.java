@@ -149,7 +149,7 @@ public class CustomerAccountManagement extends TestBase  {
 		String successResponse = successMsg.getText();
 		Assert.assertEquals(successResponse, successText, "Customer Account Update Not Successful");
 		//Click Ok button
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebElement okBtn = driver.findElement(By.xpath(Utility.fetchLocator("OkayBtn_XPATH")));
 		okBtn.click();
 		Thread.sleep(2000);
