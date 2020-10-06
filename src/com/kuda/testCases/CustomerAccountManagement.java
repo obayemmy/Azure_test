@@ -144,7 +144,7 @@ public class CustomerAccountManagement extends TestBase  {
 		yesBtn.click();
 		Thread.sleep(2000);
 		//Verify Success Message
-		String successText = "Completed Successfully";""
+		String successText = "Completed Successfully";
 		WebElement successMsg = driver.findElement(By.xpath(Utility.fetchLocator("accountUpdateSuccessText_XPATH")));
 		String successResponse = successMsg.getText();
 		Assert.assertEquals(successResponse, successText, "Customer Account Update Not Successful");
