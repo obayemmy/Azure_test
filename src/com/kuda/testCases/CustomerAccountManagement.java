@@ -118,12 +118,14 @@ public class CustomerAccountManagement extends TestBase  {
 		//Click Manage button
 		WebElement manageBtn = driver.findElement(By.xpath(Utility.fetchLocator("manageBtn_XPATH")));
 		manageBtn.click();
+		System.out.println("manage button is clicked");
 		//Click edit button
 		WebElement editBtn = driver.findElement(By.xpath(Utility.fetchLocator("customerAccountEditBtn_XPATH")));
 		editBtn.click();
+		System.out.println("Edit button is clicked");
 		//Scroll down
-		JavascriptExecutor scollDown= (JavascriptExecutor)driver;
-		scollDown.executeScript("window.scrollBy(0,1000)");
+		JavascriptExecutor scrollDown= (JavascriptExecutor)driver;
+		scrollDown.executeScript("window.scrollBy(0,1000)");
 		//Click save button
 		try {
 			Thread.sleep(3000);
@@ -131,8 +133,10 @@ public class CustomerAccountManagement extends TestBase  {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("page is scrolled");
 		WebElement saveBtn = driver.findElement(By.id(Utility.fetchLocator("updateAccountSaveBtn_ID")));
 		saveBtn.click();
+		System.out.println("save button is clicked");
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {

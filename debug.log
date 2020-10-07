@@ -10,3 +10,5 @@
 [1002/184134.849:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\GBENGA~1\AppData\Local\Temp\scoped_dir12256_2126032739\Crashpad\reports\0677f4a0-cb91-42d6-aa74-3682d876b235.dmp: The process cannot access the file because it is being used by another process. (0x20)
 [1002/222431.530:ERROR:process_info.cc(359)] UncheckedAllocate
 [1002/222431.530:ERROR:process_info.cc(359)] UncheckedAllocate
+[1006/101406.889:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1006/101406.889:ERROR:exception_snapshot_win.cc(99)] thread ID 4612 not found in process
