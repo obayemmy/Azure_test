@@ -43,7 +43,8 @@ public class GeneralLedgerManagement extends TestBase {
         Thread.sleep(2000);
         //Validate the expected result is displayed
         String glNameSearchResult = driver.findElement(By.xpath(Utility.fetchLocator("glNameSearchResult_XPATH"))).getText();
-        Assert.assertEquals(glNameSearchResult,"Generator");
+        Assert.assertTrue(glNameSearchResult.contains("Generator"));
+     //   Assert.assertEquals(glNameSearchResult,"Generator");
     }
 
     @Test(priority=3)

@@ -9,6 +9,7 @@
 			<class name="com.kuda.testCases.CustomerInfoManagement" />
 			<class name="com.kuda.postingsMgt.ValidateLocalTransfer" />
 			<class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer" />
+			<class name="com.kuda.testCases.GeneralLedgerManagement"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

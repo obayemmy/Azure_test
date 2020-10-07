@@ -127,15 +127,15 @@ public class CustomerAccountManagement extends TestBase  {
 		JavascriptExecutor scrollDown= (JavascriptExecutor)driver;
 		scrollDown.executeScript("window.scrollBy(0,1000)");
 		//Click save button
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		Thread.sleep(5000);
 		System.out.println("page is scrolled");
+//		WebElement saveBtn = driver.findElement(By.id(Utility.fetchLocator("updateAccountSaveBtn_ID")));
+//		saveBtn.click();
+
+		WebDriverWait wait2 = new WebDriverWait(driver, 10);
+		wait2.until(ExpectedConditions.elementToBeClickable(By.id(Utility.fetchLocator("updateAccountSaveBtn_ID"))));
 		WebElement saveBtn = driver.findElement(By.id(Utility.fetchLocator("updateAccountSaveBtn_ID")));
-		saveBtn.click();
+        saveBtn.click();
 		Thread.sleep(2000);
 		System.out.println("save button is clicked");
 		try {
