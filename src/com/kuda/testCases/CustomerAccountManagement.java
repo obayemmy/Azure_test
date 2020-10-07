@@ -136,6 +136,7 @@ public class CustomerAccountManagement extends TestBase  {
 		System.out.println("page is scrolled");
 		WebElement saveBtn = driver.findElement(By.id(Utility.fetchLocator("updateAccountSaveBtn_ID")));
 		saveBtn.click();
+		Thread.sleep(2000);
 		System.out.println("save button is clicked");
 		try {
 			Thread.sleep(2000);
