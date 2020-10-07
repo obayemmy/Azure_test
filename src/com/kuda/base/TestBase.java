@@ -27,10 +27,7 @@ public class TestBase {
 		if(Utility.fetchProperty("browserName").toString().equalsIgnoreCase("chrome")) {
 			//set property and create instance of chrome browser
 			System.setProperty("webdriver.chrome.driver", projectPath+"\\Drivers\\chromedriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			Boolean headless = Boolean.valueOf(String.valueOf(Utility.fetchProperty("headless")));
-			options.setHeadless(headless);
-			driver =new ChromeDriver(options);
+			driver =new ChromeDriver();
 			//System.out.println(browserName + " browser running");
 		}
 		else if(Utility.fetchProperty("browserName").toString().equalsIgnoreCase("firefox")) {
