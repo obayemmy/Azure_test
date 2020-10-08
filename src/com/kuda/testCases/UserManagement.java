@@ -1,27 +1,24 @@
 package com.kuda.testCases;
 
-import java.io.IOException;
-
+import com.kuda.base.TestBase;
+import com.kuda.utility.Utility;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.kuda.base.TestBase;
-import com.kuda.utility.Utility;
+import java.io.IOException;
 
 public class UserManagement extends TestBase{
 	public ValidateLogin login ;
-	WebDriverWait wait;
+	//WebDriverWait wait;
 	
-	@Test(priority=0)
-	public void sign() throws IOException, InterruptedException {
+	@Test(priority=1)
+	public void viewUsers() throws IOException, InterruptedException {
 		login = new ValidateLogin();
-		login.googleSign();
-	
 		try {
 			login.googleSign();
 		} catch (InterruptedException e) {
@@ -31,81 +28,56 @@ public class UserManagement extends TestBase{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-//		WebElement signInBtn = 	driver.findElement(By.xpath(Utility.fetchLocator("googleSignBtn")));
-//		signInBtn.click();
-//		
-//		String mainWindowHandle = driver.getWindowHandle();
-//		for (String childWindowHandle : driver.getWindowHandles()) {
-//			//If window handle is not main window handle then close it 
-//			if(!childWindowHandle.equals(mainWindowHandle)){
-//				driver.switchTo().window(childWindowHandle);
-//				// Close child windows
-//			}
-//		} 
-//		System.out.println(driver.getCurrentUrl());
-//		System.out.println(driver.getTitle());
-//		//Enter Email Address
-//		driver.findElement(By.id(Utility.fetchLocator("googleEmailField"))).sendKeys(Utility.fetchLocator("emailAddressText"));
-//		//Click Next Button
-//		driver.findElement(By.xpath(Utility.fetchLocator("nextButton"))).click();
-//		//Enter Password
-//		WebElement passField=driver.findElement(By.xpath(Utility.fetchLocator("passwordField")));
-//		passField.sendKeys(Utility.fetchLocator("passwordText"));
-//		passField.sendKeys(Keys.ENTER);
-//		Thread.sleep(9000);
-//		//switch to Main Window
-//		driver.switchTo().window(mainWindowHandle);
-//		Thread.sleep(2000);
-//		System.out.println(driver.getTitle());		
-	}
-	@Test(priority=1)
-	public void viewUsers() throws InterruptedException, IOException {
-//		login = new ValidateLogin();
-//		login.googleSign();
-		//	wait = new WebDriverWait(driver, 15);
-		//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Utility.fetchLocator("userManagementBtn"))));
-		WebElement userMgtBtn = driver.findElement(By.xpath(Utility.fetchLocator("userManagementBtn")));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement userMgtBtn = driver.findElement(By.xpath(Utility.fetchLocator("userManagementBtn_ID")));
+		js.executeScript("arguments[0].scrollIntoView();", userMgtBtn);
 		String userText =userMgtBtn.getText();
-		Assert.assertEquals(userText, "User Management");
+		Assert.assertEquals(userText, "User Management", "The right text is not on the button");
 		userMgtBtn.click();
 		System.out.println(userText);
-
-		Thread.sleep(4000);
+		//click view user
+		WebElement viewUser = driver.findElement(By.xpath(Utility.fetchLocator("viewUserBtn_XPATH")));
+		viewUser.click();
 	}
-
 	@Test(priority=2)
-	public void searchUsers() throws IOException {
-		//Click view Users
-		driver.findElement(By.xpath(Utility.fetchLocator("viewUserBtn"))).click();
-		WebElement searchText = driver.findElement(By.xpath(Utility.fetchLocator("searchTextResult")));
-		String userVerifiy = searchText.getText();
-		System.out.println(userVerifiy);
-		Assert.assertEquals(userVerifiy, "Testuser");
-		WebDriverWait wait = new WebDriverWait(driver, 15);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(Utility.fetchLocator("searchField"))));
-		WebElement search =	driver.findElement(By.id(Utility.fetchLocator("searchField")));
-		search.sendKeys(Utility.fetchLocator("searchText"));
-		Select params = new Select(driver.findElement(By.xpath(Utility.fetchLocator("searchParamsField"))));
-		params.selectByVisibleText("Username");
-		WebElement searchBtn =driver.findElement(By.id(Utility.fetchLocator("searchBtn")));
+	public void searchUsersByUserName() throws IOException {
+		//search text
+		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
+		searchField.sendKeys(Utility.fetchLocator("usernameSearchText"));
+		//search parameter
+		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
+		searchCriteria.selectByVisibleText("Username");
+		//click search button
+		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
 		searchBtn.click();
-		//Assert search result
-		WebDriverWait chill = new WebDriverWait(driver, 15);
-		chill.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Utility.fetchLocator("verifyingResult"))));
-		WebElement checkResult = driver.findElement(By.xpath(Utility.fetchLocator("verifyingResult")));
-		String resultz = checkResult.getText();
-		//boolean result = checkResult.isDisplayed();
-
-		if(resultz.contains("Walex")) {
-			System.out.println("Result is valid");
-		}else {
-			System.out.println("Result not valid");
-		}
 	}
+	@Test(priority =3)
+	public void searchUserByDesignation() throws IOException {
+		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
+		searchField.clear();
+		searchField.sendKeys(Utility.fetchLocator("userDesignationSearchText"));
+		//search parameter
+		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
+		searchCriteria.selectByVisibleText("Designation");
+		//Click seaarch button
+		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
+		searchBtn.click();
+		}
+	@Test(priority = 3)
+	public void searchUserByPhoneNumber() {
+		//driver.navigate().back();
+	}
+	@Test(priority = 4)
+	public void searchUserByEmployeeNumber(){
 
-	@Test
-	public void createUser() {
-		driver.navigate().back();
+	}
+	@Test(priority=5)
+	public void searchUserByEmail(){
+
+	}
+	@Test(priority=6)
+	public void searchUserBylastName(){
+
 	}
 
 }
