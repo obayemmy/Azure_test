@@ -14,8 +14,6 @@ import java.io.IOException;
 
 public class UserManagement extends TestBase{
 	public ValidateLogin login ;
-	//WebDriverWait wait;
-	
 	@Test(priority=1)
 	public void viewUsers() throws IOException, InterruptedException {
 		login = new ValidateLogin();
@@ -53,7 +51,7 @@ public class UserManagement extends TestBase{
 		Thread.sleep(2000);
 	}
 	@Test(priority =3)
-	public void searchUserByDesignation() throws IOException {
+	public void searchUserByDesignation() throws IOException, InterruptedException {
 		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
 		searchField.clear();
 		searchField.sendKeys(Utility.fetchLocator("userDesignationSearchText"));
@@ -66,9 +64,10 @@ public class UserManagement extends TestBase{
 		//Verify Search Result
 		String searchResult = driver.findElement(By.xpath(Utility.fetchLocator("userDesignationSearchResult_XPATH"))).getText();
 		Assert.assertTrue(searchResult.contains("Orok"));
+		Thread.sleep(2000);
 		}
 	@Test(priority = 4)
-	public void searchUserByPhoneNumber() throws IOException {
+	public void searchUserByPhoneNumber() throws IOException, InterruptedException {
 		//Enter search text
 		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
 		searchField.clear();
@@ -76,20 +75,56 @@ public class UserManagement extends TestBase{
 		//search parameter
 		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
 		searchCriteria.selectByVisibleText("Phone Number");
-
-
-		//driver.navigate().back();
+		//Click seaarch button
+		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
+		searchBtn.click();
+		//Validate Result
+		String phoneNumber = driver.findElement(By.xpath(Utility.fetchLocator("userPhoneNumberSearchResult_XPATH"))).getText();
+		Assert.assertEquals(phoneNumber, "Gabriel");
+		Thread.sleep(2000);
 	}
 	@Test(priority = 5)
-	public void searchUserByEmployeeNumber(){
-
+	public void searchUserByEmployeeNumber() throws IOException, InterruptedException {
+		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
+		searchField.clear();
+		searchField.sendKeys(Utility.fetchLocator("userEmployeeNumberSearchText"));
+		//search parameter
+		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
+		searchCriteria.selectByVisibleText("Employee Number");
+		//Click seaarch button
+		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
+		searchBtn.click();
+		//Validate search result
+		String result = driver.findElement(By.xpath(Utility.fetchLocator("userEmployeeNumberSearchResult_XPATH"))).getText();
+		Assert.assertTrue(result.contains("Mustapha"));
+		Thread.sleep(2000);
 	}
 	@Test(priority=6)
-	public void searchUserByEmail(){
-
+	public void searchUserByEmail() throws IOException, InterruptedException {
+		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
+		searchField.clear();
+		searchField.sendKeys(Utility.fetchLocator("userEmilSearchText"));
+		//search parameter
+		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
+		searchCriteria.selectByVisibleText("Email Address");
+		//Click seaarch button
+		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
+		searchBtn.click();
+		//Validate search result
+		String result = driver.findElement(By.xpath(Utility.fetchLocator("userEmployeeNumberSearchResult_XPATH"))).getText();
+		Assert.assertTrue(result.contains("Mustapha"));
+		Thread.sleep(2000);
 	}
 	@Test(priority=7)
 	public void searchUserBylastName(){
+
+	}
+	@Test(priority=8)
+	public void editUser(){
+
+	}
+	@Test(priority=9)
+	public void createUser(){
 
 	}
 
