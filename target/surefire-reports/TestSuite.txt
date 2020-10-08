@@ -1,4 +1,210 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 283.712 sec - in TestSuite
+Tests run: 44, Failures: 8, Errors: 0, Skipped: 36, Time elapsed: 96.161 sec <<< FAILURE! - in TestSuite
+setUp(com.kuda.testCases.ValidateLogin)  Time elapsed: 4.688 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 526c460c4a4da27d90a83a6489b8865c
+
+setUp(com.kuda.testCases.BranchManagement)  Time elapsed: 3.384 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53378}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 95954b1f9b109a63b268eaa54fa7187f
+
+setUp(com.kuda.testCases.CustomerAccountManagement)  Time elapsed: 40.414 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 689b0ab75c27a46d8779f8f9da91b221
+
+setUp(com.kuda.testCases.CustomerInfoManagement)  Time elapsed: 3.243 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BAD383+3134339]
+	Ordinal0 [0x00A9A171+2007409]
+	Ordinal0 [0x0093AEE8+569064]
+	Ordinal0 [0x0092FCDD+523485]
+	Ordinal0 [0x0092F9E9+522729]
+	Ordinal0 [0x0092F0FA+520442]
+	Ordinal0 [0x0092E542+517442]
+	Ordinal0 [0x0092E935+518453]
+	Ordinal0 [0x0092E265+516709]
+	Ordinal0 [0x00933C7C+539772]
+	Ordinal0 [0x0092E214+516628]
+	Ordinal0 [0x0092EF25+519973]
+	Ordinal0 [0x0092E542+517442]
+	Ordinal0 [0x0092E935+518453]
+	Ordinal0 [0x0092E265+516709]
+	Ordinal0 [0x00932F37+536375]
+	Ordinal0 [0x0092E214+516628]
+	Ordinal0 [0x0092EF25+519973]
+	Ordinal0 [0x0092E542+517442]
+	Ordinal0 [0x0092E935+518453]
+	Ordinal0 [0x0092E265+516709]
+	Ordinal0 [0x0092AB7C+502652]
+	Ordinal0 [0x0092E214+516628]
+	Ordinal0 [0x0092DF81+515969]
+	Ordinal0 [0x0093BF70+573296]
+	Ordinal0 [0x008E1916+203030]
+	Ordinal0 [0x008E0C1D+199709]
+	Ordinal0 [0x008DEB0B+191243]
+	Ordinal0 [0x008C2E77+77431]
+	Ordinal0 [0x008C3E3E+81470]
+	Ordinal0 [0x008C3DC9+81353]
+	Ordinal0 [0x00AB0CD9+2100441]
+	GetHandleVerifier [0x00D1B75A+1396954]
+	GetHandleVerifier [0x00D1B3D9+1396057]
+	GetHandleVerifier [0x00D27126+1444518]
+	GetHandleVerifier [0x00D1BCE8+1398376]
+	Ordinal0 [0x00AA7F51+2064209]
+	Ordinal0 [0x00AB22EB+2106091]
+	Ordinal0 [0x00AB2411+2106385]
+	Ordinal0 [0x00AC49C4+2181572]
+	BaseThreadInitThunk [0x77A96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77DD7BF4+180]
+
+
+setUp(com.kuda.postingsMgt.ValidateLocalTransfer)  Time elapsed: 13.093 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BAD383+3134339]
+	Ordinal0 [0x00A9A171+2007409]
+	Ordinal0 [0x0093AD90+568720]
+	Ordinal0 [0x00931364+529252]
+	Ordinal0 [0x009319FC+530940]
+	Ordinal0 [0x00932C15+535573]
+	Ordinal0 [0x0092DFC5+516037]
+	Ordinal0 [0x0093BF70+573296]
+	Ordinal0 [0x008E1916+203030]
+	Ordinal0 [0x008E0C1D+199709]
+	Ordinal0 [0x008DEB0B+191243]
+	Ordinal0 [0x008C2E77+77431]
+	Ordinal0 [0x008C3E3E+81470]
+	Ordinal0 [0x008C3DC9+81353]
+	Ordinal0 [0x00AB0CD9+2100441]
+	GetHandleVerifier [0x00D1B75A+1396954]
+	GetHandleVerifier [0x00D1B3D9+1396057]
+	GetHandleVerifier [0x00D27126+1444518]
+	GetHandleVerifier [0x00D1BCE8+1398376]
+	Ordinal0 [0x00AA7F51+2064209]
+	Ordinal0 [0x00AB22EB+2106091]
+	Ordinal0 [0x00AB2411+2106385]
+	Ordinal0 [0x00AC49C4+2181572]
+	BaseThreadInitThunk [0x77A96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77DD7BF4+180]
+
+
+setUp(com.kuda.postingsMgt.ValidateSingleJournalTransfer)  Time elapsed: 4.824 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a2809dedb5bad7a94dc97a24d93c36b
+
+setUp(com.kuda.testCases.GeneralLedgerManagement)  Time elapsed: 13.103 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BAD383+3134339]
+	Ordinal0 [0x00A9A171+2007409]
+	Ordinal0 [0x0093AD90+568720]
+	Ordinal0 [0x00931364+529252]
+	Ordinal0 [0x009319FC+530940]
+	Ordinal0 [0x00932C15+535573]
+	Ordinal0 [0x0092DFC5+516037]
+	Ordinal0 [0x0093BF70+573296]
+	Ordinal0 [0x008E1916+203030]
+	Ordinal0 [0x008E0C1D+199709]
+	Ordinal0 [0x008DEB0B+191243]
+	Ordinal0 [0x008C2E77+77431]
+	Ordinal0 [0x008C3E3E+81470]
+	Ordinal0 [0x008C3DC9+81353]
+	Ordinal0 [0x00AB0CD9+2100441]
+	GetHandleVerifier [0x00D1B75A+1396954]
+	GetHandleVerifier [0x00D1B3D9+1396057]
+	GetHandleVerifier [0x00D27126+1444518]
+	GetHandleVerifier [0x00D1BCE8+1398376]
+	Ordinal0 [0x00AA7F51+2064209]
+	Ordinal0 [0x00AB22EB+2106091]
+	Ordinal0 [0x00AB2411+2106385]
+	Ordinal0 [0x00AC49C4+2181572]
+	BaseThreadInitThunk [0x77A96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77DD7BF4+180]
+
+
+setUp(com.kuda.testCases.UserManagement)  Time elapsed: 13.119 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BAD383+3134339]
+	Ordinal0 [0x00A9A171+2007409]
+	Ordinal0 [0x0093AD90+568720]
+	Ordinal0 [0x00931364+529252]
+	Ordinal0 [0x009319FC+530940]
+	Ordinal0 [0x00932C15+535573]
+	Ordinal0 [0x0092DFC5+516037]
+	Ordinal0 [0x0093BF70+573296]
+	Ordinal0 [0x008E1916+203030]
+	Ordinal0 [0x008E0C1D+199709]
+	Ordinal0 [0x008DEB0B+191243]
+	Ordinal0 [0x008C2E77+77431]
+	Ordinal0 [0x008C3E3E+81470]
+	Ordinal0 [0x008C3DC9+81353]
+	Ordinal0 [0x00AB0CD9+2100441]
+	GetHandleVerifier [0x00D1B75A+1396954]
+	GetHandleVerifier [0x00D1B3D9+1396057]
+	GetHandleVerifier [0x00D27126+1444518]
+	GetHandleVerifier [0x00D1BCE8+1398376]
+	Ordinal0 [0x00AA7F51+2064209]
+	Ordinal0 [0x00AB22EB+2106091]
+	Ordinal0 [0x00AB2411+2106385]
+	Ordinal0 [0x00AC49C4+2181572]
+	BaseThreadInitThunk [0x77A96359+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77DD7BF4+180]
+
+

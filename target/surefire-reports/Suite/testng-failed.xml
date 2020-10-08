@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer">
+        <methods>
+          <include name="glToglTransfer"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kuda.postingsMgt.ValidateSingleJournalTransfer -->
+      <class name="com.kuda.postingsMgt.ValidateLocalTransfer">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLocalFundTransfer"/>
+        </methods>
+      </class> <!-- com.kuda.postingsMgt.ValidateLocalTransfer -->
+      <class name="com.kuda.testCases.GeneralLedgerManagement">
+        <methods>
+          <include name="viewGLBalance"/>
+          <include name="editGeneralLedgerAccount"/>
+          <include name="tearDown"/>
+          <include name="searchGLByCode"/>
+          <include name="setUp"/>
+          <include name="searchGLByName"/>
+          <include name="viewGLAccounts"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.GeneralLedgerManagement -->
+      <class name="com.kuda.testCases.BranchManagement">
+        <methods>
+          <include name="viewBranches"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.BranchManagement -->
+      <class name="com.kuda.testCases.ValidateLogin">
+        <methods>
+          <include name="googleSign"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.ValidateLogin -->
+      <class name="com.kuda.testCases.CustomerAccountManagement">
+        <methods>
+          <include name="viewAccountBalance"/>
+          <include name="searchByAccountNumber"/>
+          <include name="createCustomerAccount"/>
+          <include name="searchByAccountName"/>
+          <include name="tearDown"/>
+          <include name="viewCASAccount"/>
+          <include name="setUp"/>
+          <include name="searchByAccountEmail"/>
+          <include name="editCustomerAccount"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.CustomerAccountManagement -->
+      <class name="com.kuda.testCases.UserManagement">
+        <methods>
+          <include name="searchUserBylastName"/>
+          <include name="viewUsers"/>
+          <include name="searchUsersByUserName"/>
+          <include name="searchUserByPhoneNumber"/>
+          <include name="searchUserByEmail"/>
+          <include name="tearDown"/>
+          <include name="searchUserByDesignation"/>
+          <include name="setUp"/>
+          <include name="searchUserByEmployeeNumber"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.UserManagement -->
+      <class name="com.kuda.testCases.CustomerInfoManagement">
+        <methods>
+          <include name="searchCustomerById"/>
+          <include name="searchCustomerByName"/>
+          <include name="searchByCustomerEmail"/>
+          <include name="createCustomer"/>
+          <include name="viewCustomers"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kuda.testCases.CustomerInfoManagement -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

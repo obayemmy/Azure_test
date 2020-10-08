@@ -40,7 +40,7 @@ public class UserManagement extends TestBase{
 		viewUser.click();
 	}
 	@Test(priority=2)
-	public void searchUsersByUserName() throws IOException {
+	public void searchUsersByUserName() throws IOException, InterruptedException {
 		//search text
 		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
 		searchField.sendKeys(Utility.fetchLocator("usernameSearchText"));
@@ -50,6 +50,7 @@ public class UserManagement extends TestBase{
 		//click search button
 		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
 		searchBtn.click();
+		Thread.sleep(2000);
 	}
 	@Test(priority =3)
 	public void searchUserByDesignation() throws IOException {
@@ -62,20 +63,32 @@ public class UserManagement extends TestBase{
 		//Click seaarch button
 		WebElement searchBtn = driver.findElement(By.id(Utility.fetchLocator("userSearchBtn_ID")));
 		searchBtn.click();
+		//Verify Search Result
+		String searchResult = driver.findElement(By.xpath(Utility.fetchLocator("userDesignationSearchResult_XPATH"))).getText();
+		Assert.assertTrue(searchResult.contains("Orok"));
 		}
-	@Test(priority = 3)
-	public void searchUserByPhoneNumber() {
+	@Test(priority = 4)
+	public void searchUserByPhoneNumber() throws IOException {
+		//Enter search text
+		WebElement searchField = driver.findElement(By.id(Utility.fetchLocator("userSearchField_ID")));
+		searchField.clear();
+		searchField.sendKeys(Utility.fetchLocator("userPhoneNumberSearchText"));
+		//search parameter
+		Select searchCriteria = new Select(driver.findElement(By.id(Utility.fetchLocator("searchParamsField_ID"))));
+		searchCriteria.selectByVisibleText("Phone Number");
+
+
 		//driver.navigate().back();
 	}
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void searchUserByEmployeeNumber(){
 
 	}
-	@Test(priority=5)
+	@Test(priority=6)
 	public void searchUserByEmail(){
 
 	}
-	@Test(priority=6)
+	@Test(priority=7)
 	public void searchUserBylastName(){
 
 	}
