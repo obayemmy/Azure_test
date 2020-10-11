@@ -4,13 +4,7 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.kuda.testCases.ValidateLogin" />
-			<class name="com.kuda.testCases.BranchManagement" />
-			<class name ="com.kuda.testCases.CustomerAccountManagement"/>
-			<class name="com.kuda.testCases.CustomerInfoManagement" />
-			<class name="com.kuda.postingsMgt.ValidateLocalTransfer" />
-			<class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer" />
-			<class name="com.kuda.testCases.GeneralLedgerManagement"/>
-			<class name="com.kuda.testCases.UserManagement"/>
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
