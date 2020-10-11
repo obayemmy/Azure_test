@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 31, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 339.995 sec <<< FAILURE! - in TestSuite
-verifyLocalFundTransfer(com.kuda.postingsMgt.ValidateLocalTransfer)  Time elapsed: 22.657 sec  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1269, 885)
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 52a417a206879298d5a2eff7e047e6ec
-	at com.kuda.postingsMgt.ValidateLocalTransfer.verifyLocalFundTransfer(ValidateLocalTransfer.java:58)
-
-tearDown(com.kuda.testCases.UserManagement)  Time elapsed: 0.018 sec  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : No Record Found}
-  (Session info: chrome=85.0.4183.121): No Record Found
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 96a3219f3eddeb34abf7e65c1a7b7b29
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.907 sec - in TestSuite

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="339.995" tests="31" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.907" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,67 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="googleSign" classname="com.kuda.testCases.ValidateLogin" time="15.507"/>
-  <testcase name="viewBranches" classname="com.kuda.testCases.BranchManagement" time="19.258"/>
-  <testcase name="viewCASAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="19.803"/>
-  <testcase name="searchByAccountName" classname="com.kuda.testCases.CustomerAccountManagement" time="2.905"/>
-  <testcase name="searchByAccountNumber" classname="com.kuda.testCases.CustomerAccountManagement" time="2.878"/>
-  <testcase name="searchByAccountEmail" classname="com.kuda.testCases.CustomerAccountManagement" time="2.714"/>
-  <testcase name="viewAccountBalance" classname="com.kuda.testCases.CustomerAccountManagement" time="6.258"/>
-  <testcase name="editCustomerAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="23.352"/>
-  <testcase name="createCustomerAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="23.419"/>
-  <testcase name="viewCustomers" classname="com.kuda.testCases.CustomerInfoManagement" time="21.766"/>
-  <testcase name="searchCustomerByName" classname="com.kuda.testCases.CustomerInfoManagement" time="3.256"/>
-  <testcase name="searchByCustomerEmail" classname="com.kuda.testCases.CustomerInfoManagement" time="3.202"/>
-  <testcase name="searchCustomerById" classname="com.kuda.testCases.CustomerInfoManagement" time="3.196"/>
-  <testcase name="createCustomer" classname="com.kuda.testCases.CustomerInfoManagement" time="11.045"/>
-  <testcase name="verifyLocalFundTransfer" classname="com.kuda.postingsMgt.ValidateLocalTransfer" time="22.657">
-    <failure message="element click intercepted: Element is not clickable at point (1269, 885)&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-D068G7Q&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 52a417a206879298d5a2eff7e047e6ec" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1269, 885)
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 52a417a206879298d5a2eff7e047e6ec
-	at com.kuda.postingsMgt.ValidateLocalTransfer.verifyLocalFundTransfer(ValidateLocalTransfer.java:58)
-</failure>
-    <system-out><![CDATA[https://accounts.google.com/o/oauth2/auth/identifier?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fnerve-uat.inkuda.com%3Fid%3Dauth510516&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&client_id=1044339849100-b33jfvo226oud84a6ll9ns3qk157c1pl.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fnerve-uat.inkuda.com&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow
-Sign in – Google accounts
-Dashboard | Kuda CBA Platform
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3017
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 09, 2020 9:02:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="glToglTransfer" classname="com.kuda.postingsMgt.ValidateSingleJournalTransfer" time="30.195"/>
-  <testcase name="viewGLAccounts" classname="com.kuda.testCases.GeneralLedgerManagement" time="16.594"/>
-  <testcase name="searchGLByName" classname="com.kuda.testCases.GeneralLedgerManagement" time="3.997"/>
-  <testcase name="searchGLByCode" classname="com.kuda.testCases.GeneralLedgerManagement" time="5.558"/>
-  <testcase name="viewGLBalance" classname="com.kuda.testCases.GeneralLedgerManagement" time="2.28"/>
-  <testcase name="editGeneralLedgerAccount" classname="com.kuda.testCases.GeneralLedgerManagement" time="0.001"/>
-  <testcase name="viewUsers" classname="com.kuda.testCases.UserManagement" time="15.979"/>
-  <testcase name="searchUsersByUserName" classname="com.kuda.testCases.UserManagement" time="2.227"/>
-  <testcase name="searchUserByDesignation" classname="com.kuda.testCases.UserManagement" time="2.264"/>
-  <testcase name="searchUserByPhoneNumber" classname="com.kuda.testCases.UserManagement" time="2.507"/>
-  <testcase name="searchUserByEmployeeNumber" classname="com.kuda.testCases.UserManagement" time="2.539"/>
-  <testcase name="searchUserByEmail" classname="com.kuda.testCases.UserManagement" time="2.22"/>
-  <testcase name="searchUserBylastName" classname="com.kuda.testCases.UserManagement" time="0"/>
-  <testcase name="editUser" classname="com.kuda.testCases.UserManagement" time="0"/>
-  <testcase name="createUser" classname="com.kuda.testCases.UserManagement" time="0"/>
-  <testcase name="tearDown" classname="com.kuda.testCases.UserManagement" time="0.018">
-    <failure message="unexpected alert open: {Alert text : No Record Found}&#10;  (Session info: chrome=85.0.4183.121): No Record Found&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-D068G7Q&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 96a3219f3eddeb34abf7e65c1a7b7b29" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : No Record Found}
-  (Session info: chrome=85.0.4183.121): No Record Found
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 96a3219f3eddeb34abf7e65c1a7b7b29
-</failure>
-  </testcase>
+  <testcase name="googleSign" classname="com.kuda.testCases.ValidateLogin" time="6.577"/>
 </testsuite>

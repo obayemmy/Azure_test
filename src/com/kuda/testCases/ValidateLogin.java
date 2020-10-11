@@ -45,6 +45,6 @@ public class ValidateLogin extends TestBase{
 		//switch to Main Window
 		driver.switchTo().window(mainWindowHandle);
 		System.out.println(driver.getTitle());
-		System.out.println("Login test completed");
+		System.out.println("Login test completed successfully");
 	}
 }
