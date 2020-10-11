@@ -2,9 +2,11 @@ package com.kuda.base;
 
 import com.kuda.utility.Utility;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -24,9 +26,14 @@ public class TestBase {
 			//set property and create instance of chrome browser
 			//System.setProperty("webdriver.chrome.driver", projectPath+"\\Drivers\\chromedriver.exe");
 			//using webdriver manager
-			WebDriverManager.chromedriver().setup();
-		    driver =new ChromeDriver();
+			//WebDriverManager.chromedriver().setup();
+		  //  driver =new ChromeDriver();
 			//System.out.println(browserName + " browser running");
+			ChromeDriverManager.chromedriver().setup();
+			ChromeOptions chromeOptions = new ChromeOptions();
+
+			chromeOptions.addArguments("--headless");
+			driver = new ChromeDriver(chromeOptions);
 		}
 		else if(Utility.fetchProperty("browserName").toString().equalsIgnoreCase("firefox")) {
 			//set property and create instance of chrome firefox
