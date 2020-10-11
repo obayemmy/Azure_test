@@ -19,8 +19,8 @@ public class Assertions {
 			title= true;
 		}
 		return title;
-		
 	}
+
 	public static  boolean validateErrorMsg(WebDriver driver, String expErrorMsg) {
 		boolean errorMsg = false;
 		if(driver.getPageSource().contains(expErrorMsg)) {

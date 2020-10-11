@@ -41,10 +41,9 @@ public class ValidateLogin extends TestBase{
 		WebElement passField=driver.findElement(By.xpath(Utility.fetchLocator("passwordField")));
 		passField.sendKeys(Utility.fetchLocator("passwordText"));
 		passField.sendKeys(Keys.ENTER);
-		Thread.sleep(9000);
+		Thread.sleep(2000);
 		//switch to Main Window
 		driver.switchTo().window(mainWindowHandle);
-		Thread.sleep(2000);
 		System.out.println(driver.getTitle());		
 	}
 }

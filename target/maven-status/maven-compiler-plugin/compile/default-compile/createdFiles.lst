@@ -1,13 +1,17 @@
+reportManagement\BalanceSheetReport.class
+reportManagement\GeneralPostingsReport.class
 com\kuda\dataSupplier\CustomerSignUp.class
 com\kuda\dataSupplier\BookerDetails.class
 com\kuda\postingsMgt\ValidateSingleJournalTransfer.class
 com\kuda\testCases\GeneralLedgerManagement.class
 com\kuda\testCases\ValidateLogin.class
 com\kuda\testCases\CustomerAccountManagement.class
+reportManagement\CustomerAccountPostingsReport.class
 com\kuda\postingsMgt\ValidateLocalTransfer.class
 com\kuda\testCases\BranchManagement.class
 com\kuda\testCases\UserManagement.class
 com\kuda\testCases\CustomerInfoManagement.class
 com\kuda\utility\Utility.class
 com\kuda\base\TestBase.class
+reportManagement\GLPostingsReport.class
 com\kuda\assertions\Assertions.class
