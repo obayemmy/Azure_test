@@ -1,5 +1,9 @@
 package com.kuda.testCases;
 import java.io.IOException;
+
+import com.kuda.utility.Log;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -11,8 +15,10 @@ import com.kuda.utility.Utility;
 
 
 public class ValidateLogin extends TestBase{
+
 	@Test(priority=1)
 	public void googleSign() throws InterruptedException, IOException {
+
 //		WebElement signInBtn = 	driver.findElement(By.xpath(Utility.fetchLocator("googleSignBtn")));
 //		signInBtn.click();
 
@@ -46,5 +52,7 @@ public class ValidateLogin extends TestBase{
 		driver.switchTo().window(mainWindowHandle);
 		System.out.println(driver.getTitle());
 		System.out.println("Login test completed successfully");
+		Log.info("Validate login completed");
+
 	}
 }

@@ -48,6 +48,7 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:jetty-repacked:9.4.12.v20180830" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.19" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.testng:testng:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
