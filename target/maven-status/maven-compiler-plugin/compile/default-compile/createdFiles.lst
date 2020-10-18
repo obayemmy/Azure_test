@@ -14,4 +14,5 @@ com\kuda\testCases\CustomerInfoManagement.class
 com\kuda\utility\Utility.class
 com\kuda\base\TestBase.class
 reportManagement\GLPostingsReport.class
+com\kuda\utility\Log.class
 com\kuda\assertions\Assertions.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.907" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="460.838" tests="31" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
@@ -36,7 +36,7 @@
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Gbenga"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
@@ -64,5 +64,45 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="googleSign" classname="com.kuda.testCases.ValidateLogin" time="6.577"/>
+  <testcase name="googleSign" classname="com.kuda.testCases.ValidateLogin" time="6.072"/>
+  <testcase name="viewBranches" classname="com.kuda.testCases.BranchManagement" time="20.001"/>
+  <testcase name="viewCASAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="22.621"/>
+  <testcase name="searchByAccountName" classname="com.kuda.testCases.CustomerAccountManagement" time="3.19"/>
+  <testcase name="searchByAccountNumber" classname="com.kuda.testCases.CustomerAccountManagement" time="3.032"/>
+  <testcase name="searchByAccountEmail" classname="com.kuda.testCases.CustomerAccountManagement" time="3.307"/>
+  <testcase name="viewAccountBalance" classname="com.kuda.testCases.CustomerAccountManagement" time="6.44"/>
+  <testcase name="editCustomerAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="22.256"/>
+  <testcase name="createCustomerAccount" classname="com.kuda.testCases.CustomerAccountManagement" time="24.744"/>
+  <testcase name="viewCustomers" classname="com.kuda.testCases.CustomerInfoManagement" time="21.196"/>
+  <testcase name="searchCustomerByName" classname="com.kuda.testCases.CustomerInfoManagement" time="3.708"/>
+  <testcase name="searchByCustomerEmail" classname="com.kuda.testCases.CustomerInfoManagement" time="3.575"/>
+  <testcase name="searchCustomerById" classname="com.kuda.testCases.CustomerInfoManagement" time="3.61"/>
+  <testcase name="createCustomer" classname="com.kuda.testCases.CustomerInfoManagement" time="13.457"/>
+  <testcase name="verifyLocalFundTransfer" classname="com.kuda.postingsMgt.ValidateLocalTransfer" time="76.24"/>
+  <testcase name="glToglTransfer" classname="com.kuda.postingsMgt.ValidateSingleJournalTransfer" time="57.393"/>
+  <testcase name="viewGLAccounts" classname="com.kuda.testCases.GeneralLedgerManagement" time="16.466"/>
+  <testcase name="searchGLByName" classname="com.kuda.testCases.GeneralLedgerManagement" time="4.693"/>
+  <testcase name="searchGLByCode" classname="com.kuda.testCases.GeneralLedgerManagement" time="6.687"/>
+  <testcase name="viewGLBalance" classname="com.kuda.testCases.GeneralLedgerManagement" time="2.307"/>
+  <testcase name="editGeneralLedgerAccount" classname="com.kuda.testCases.GeneralLedgerManagement" time="0"/>
+  <testcase name="viewUsers" classname="com.kuda.testCases.UserManagement" time="16.475"/>
+  <testcase name="searchUsersByUserName" classname="com.kuda.testCases.UserManagement" time="2.561"/>
+  <testcase name="searchUserByDesignation" classname="com.kuda.testCases.UserManagement" time="2.679"/>
+  <testcase name="searchUserByPhoneNumber" classname="com.kuda.testCases.UserManagement" time="2.9"/>
+  <testcase name="searchUserByEmployeeNumber" classname="com.kuda.testCases.UserManagement" time="2.694"/>
+  <testcase name="searchUserByEmail" classname="com.kuda.testCases.UserManagement" time="2.403"/>
+  <testcase name="searchUserBylastName" classname="com.kuda.testCases.UserManagement" time="0"/>
+  <testcase name="editUser" classname="com.kuda.testCases.UserManagement" time="0"/>
+  <testcase name="createUser" classname="com.kuda.testCases.UserManagement" time="0"/>
+  <testcase name="tearDown" classname="com.kuda.testCases.UserManagement" time="0.084">
+    <failure message="unexpected alert open: {Alert text : No Record Found}&#10;  (Session info: chrome=85.0.4183.121): No Record Found&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-D068G7Q&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ff67ccc066617d7d42c0e0562a7b18be" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : No Record Found}
+  (Session info: chrome=85.0.4183.121): No Record Found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff67ccc066617d7d42c0e0562a7b18be
+</failure>
+  </testcase>
 </testsuite>
