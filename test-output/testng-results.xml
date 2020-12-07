@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-07T02:19:00 WAT" name="Default suite" finished-at="2020-12-07T02:20:17 WAT" duration-ms="77212">
+    <groups>
+    </groups>
+    <test started-at="2020-12-07T02:19:00 WAT" name="Default test" finished-at="2020-12-07T02:20:17 WAT" duration-ms="77212">
+      <class name="com.kuda.testCases.CustomerInfoManagement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:00 WAT" name="setUp" finished-at="2020-12-07T02:19:09 WAT" duration-ms="8992" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewCustomers()[pri:1, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:09 WAT" name="viewCustomers" finished-at="2020-12-07T02:19:40 WAT" duration-ms="31047" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewCustomers -->
+        <test-method signature="searchCustomerByName()[pri:2, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:40 WAT" name="searchCustomerByName" finished-at="2020-12-07T02:19:48 WAT" duration-ms="7285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerByName -->
+        <test-method signature="searchByCustomerEmail()[pri:3, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:48 WAT" name="searchByCustomerEmail" finished-at="2020-12-07T02:19:55 WAT" duration-ms="7257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerEmail -->
+        <test-method signature="searchCustomerById()[pri:4, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:55 WAT" name="searchCustomerById" finished-at="2020-12-07T02:19:58 WAT" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerById -->
+        <test-method signature="createCustomer()[pri:5, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:19:58 WAT" name="createCustomer" finished-at="2020-12-07T02:20:17 WAT" duration-ms="18639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@4686afc2]" started-at="2020-12-07T02:20:17 WAT" name="tearDown" finished-at="2020-12-07T02:20:17 WAT" duration-ms="728" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.testCases.CustomerInfoManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

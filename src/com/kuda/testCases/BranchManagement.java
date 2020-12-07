@@ -34,7 +34,6 @@ public class BranchManagement extends TestBase {
             System.out.println("branch is Active");
         } else if (status.contains("Inactive")) {
             System.out.println("branch is inactive");
-            return;
         }
     }
 

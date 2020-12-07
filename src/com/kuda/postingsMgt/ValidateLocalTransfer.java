@@ -1,6 +1,9 @@
 package com.kuda.postingsMgt;
 
+import static org.testng.Assert.assertTrue;
+
 import java.io.IOException;
+import java.util.UUID;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,6 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.kuda.base.TestBase;
@@ -70,7 +74,10 @@ public class ValidateLocalTransfer extends TestBase{
 		//Enter instrument number
 		WebElement instrumentNumber = driver.findElement(By.id(Utility.fetchLocator("instrumentBumberField_ID")));
 		instrumentNumber.clear();
-		instrumentNumber.sendKeys(Utility.fetchLocator("instrumentNumberText"));
+		//Generte random uuid for instrument number
+		UUID id=UUID.randomUUID(); //Generates random UUID  
+		instrumentNumber.sendKeys(id.toString());
+
 		//Enter depositor text
 		WebElement depositorsField = driver.findElement(By.id(Utility.fetchLocator("depositorField_ID")));
 		depositorsField.clear();
@@ -87,8 +94,14 @@ public class ValidateLocalTransfer extends TestBase{
 		Actions actions = new Actions(driver);
 		actions.moveToElement(postTransactionBtn).click().perform();
 		Thread.sleep(2000);
-		//The need to validate the success message
-		
+		click("yesPostTransactionBtn_ID");
+		String postingsResponse = 	getText("postingSuccessMsg_XPATH");
+		String ExpectedResult ="Transaction successful";
+		//The need to validate the success message  
+		assertTrue(postingsResponse.contains(ExpectedResult));
+		System.out.println(postingsResponse);
+
+
 
 	}
 

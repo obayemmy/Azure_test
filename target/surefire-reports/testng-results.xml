@@ -1,81 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
+<testng-results ignored="0" total="30" passed="25" failed="0" skipped="5">
   <reporter-output>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Completed Successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="460054" started-at="2020-10-11T16:40:25 WAT" finished-at="2020-10-11T16:48:05 WAT">
+  <suite started-at="2020-11-07T21:23:19 WAT" name="Suite" finished-at="2020-11-07T21:37:44 WAT" duration-ms="864734">
     <groups>
     </groups>
-    <test name="Test" duration-ms="460054" started-at="2020-10-11T16:40:25 WAT" finished-at="2020-10-11T16:48:05 WAT">
-      <class name="com.kuda.testCases.BranchManagement">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.BranchManagement@25bbe1b6]" name="setUp" is-config="true" duration-ms="7425" started-at="2020-10-11T16:40:40 WAT" finished-at="2020-10-11T16:40:48 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewBranches()[pri:1, instance:com.kuda.testCases.BranchManagement@25bbe1b6]" name="viewBranches" duration-ms="19997" started-at="2020-10-11T16:40:48 WAT" finished-at="2020-10-11T16:41:08 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewBranches -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.BranchManagement@25bbe1b6]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-10-11T16:41:08 WAT" finished-at="2020-10-11T16:41:08 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kuda.testCases.BranchManagement -->
+    <test started-at="2020-11-07T21:23:19 WAT" name="Test" finished-at="2020-11-07T21:37:44 WAT" duration-ms="864734">
       <class name="com.kuda.testCases.UserManagement">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="setUp" is-config="true" duration-ms="9510" started-at="2020-10-11T16:47:26 WAT" finished-at="2020-10-11T16:47:35 WAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:36:51 WAT" name="setUp" finished-at="2020-11-07T21:37:04 WAT" duration-ms="12471" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewUsers()[pri:1, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="viewUsers" duration-ms="16475" started-at="2020-10-11T16:47:35 WAT" finished-at="2020-10-11T16:47:52 WAT">
+        <test-method signature="viewUsers()[pri:1, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:04 WAT" name="viewUsers" finished-at="2020-11-07T21:37:29 WAT" duration-ms="25534" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- viewUsers -->
-        <test-method status="PASS" signature="searchUsersByUserName()[pri:2, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUsersByUserName" duration-ms="2562" started-at="2020-10-11T16:47:52 WAT" finished-at="2020-10-11T16:47:54 WAT">
+        <test-method signature="searchUsersByUserName()[pri:2, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:29 WAT" name="searchUsersByUserName" finished-at="2020-11-07T21:37:32 WAT" duration-ms="2501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUsersByUserName -->
-        <test-method status="PASS" signature="searchUserByDesignation()[pri:3, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUserByDesignation" duration-ms="2679" started-at="2020-10-11T16:47:54 WAT" finished-at="2020-10-11T16:47:57 WAT">
+        <test-method signature="searchUserByDesignation()[pri:3, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:32 WAT" name="searchUserByDesignation" finished-at="2020-11-07T21:37:35 WAT" duration-ms="2650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUserByDesignation -->
-        <test-method status="PASS" signature="searchUserByPhoneNumber()[pri:4, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUserByPhoneNumber" duration-ms="2901" started-at="2020-10-11T16:47:57 WAT" finished-at="2020-10-11T16:48:00 WAT">
+        <test-method signature="searchUserByPhoneNumber()[pri:4, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:35 WAT" name="searchUserByPhoneNumber" finished-at="2020-11-07T21:37:37 WAT" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUserByPhoneNumber -->
-        <test-method status="PASS" signature="searchUserByEmployeeNumber()[pri:5, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUserByEmployeeNumber" duration-ms="2693" started-at="2020-10-11T16:48:00 WAT" finished-at="2020-10-11T16:48:03 WAT">
+        <test-method signature="searchUserByEmployeeNumber()[pri:5, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:37 WAT" name="searchUserByEmployeeNumber" finished-at="2020-11-07T21:37:41 WAT" duration-ms="3901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUserByEmployeeNumber -->
-        <test-method status="PASS" signature="searchUserByEmail()[pri:6, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUserByEmail" duration-ms="2403" started-at="2020-10-11T16:48:03 WAT" finished-at="2020-10-11T16:48:05 WAT">
+        <test-method signature="searchUserByEmail()[pri:6, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:41 WAT" name="searchUserByEmail" finished-at="2020-11-07T21:37:44 WAT" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUserByEmail -->
-        <test-method status="PASS" signature="searchUserBylastName()[pri:7, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="searchUserBylastName" duration-ms="0" started-at="2020-10-11T16:48:05 WAT" finished-at="2020-10-11T16:48:05 WAT">
+        <test-method signature="searchUserBylastName()[pri:7, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:44 WAT" name="searchUserBylastName" finished-at="2020-11-07T21:37:44 WAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUserBylastName -->
-        <test-method status="PASS" signature="editUser()[pri:8, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="editUser" duration-ms="0" started-at="2020-10-11T16:48:05 WAT" finished-at="2020-10-11T16:48:05 WAT">
+        <test-method signature="editUser()[pri:8, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:44 WAT" name="editUser" finished-at="2020-11-07T21:37:44 WAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editUser -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="tearDown" is-config="true" duration-ms="64" started-at="2020-10-11T16:48:05 WAT" finished-at="2020-10-11T16:48:05 WAT">
+        <test-method signature="createUser()[pri:9, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:44 WAT" name="createUser" finished-at="2020-11-07T21:37:44 WAT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.UserManagement@355ce81c]" started-at="2020-11-07T21:37:44 WAT" name="tearDown" finished-at="2020-11-07T21:37:44 WAT" duration-ms="17" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : No Record Found}
-  (Session info: chrome=85.0.4183.121): No Record Found
+  (Session info: chrome=86.0.4240.183): No Record Found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ff67ccc066617d7d42c0e0562a7b18be]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 02816c1340bcdebdd262baddde5958fd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : No Record Found}
-  (Session info: chrome=85.0.4183.121): No Record Found
+  (Session info: chrome=86.0.4240.183): No Record Found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ff67ccc066617d7d42c0e0562a7b18be
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 02816c1340bcdebdd262baddde5958fd
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -83,18 +139,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.kuda.base.TestBase.tearDown(TestBase.java:78)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at com.kuda.base.TestBase.tearDown(TestBase.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
 at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -119,148 +175,590 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createUser()[pri:9, instance:com.kuda.testCases.UserManagement@4bec1f0c]" name="createUser" duration-ms="0" started-at="2020-10-11T16:48:05 WAT" finished-at="2020-10-11T16:48:05 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
       </class> <!-- com.kuda.testCases.UserManagement -->
-      <class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@3159c4b8]" name="setUp" is-config="true" duration-ms="21901" started-at="2020-10-11T16:45:27 WAT" finished-at="2020-10-11T16:45:49 WAT">
+      <class name="com.kuda.testCases.BranchManagement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.BranchManagement@52102734]" started-at="2020-11-07T21:24:13 WAT" name="setUp" finished-at="2020-11-07T21:24:29 WAT" duration-ms="15272" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="glToglTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@3159c4b8]" name="glToglTransfer" duration-ms="57393" started-at="2020-10-11T16:45:49 WAT" finished-at="2020-10-11T16:46:46 WAT">
+        <test-method signature="viewBranches()[pri:1, instance:com.kuda.testCases.BranchManagement@52102734]" started-at="2020-11-07T21:24:29 WAT" name="viewBranches" finished-at="2020-11-07T21:25:37 WAT" duration-ms="67853" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- glToglTransfer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@3159c4b8]" name="tearDown" is-config="true" duration-ms="208" started-at="2020-10-11T16:46:46 WAT" finished-at="2020-10-11T16:46:46 WAT">
+        </test-method> <!-- viewBranches -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.BranchManagement@52102734]" started-at="2020-11-07T21:25:37 WAT" name="tearDown" finished-at="2020-11-07T21:25:37 WAT" duration-ms="816" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kuda.postingsMgt.ValidateSingleJournalTransfer -->
+      </class> <!-- com.kuda.testCases.BranchManagement -->
       <class name="com.kuda.testCases.CustomerAccountManagement">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="setUp" is-config="true" duration-ms="8172" started-at="2020-10-11T16:41:08 WAT" finished-at="2020-10-11T16:41:16 WAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:25:37 WAT" name="setUp" finished-at="2020-11-07T21:25:49 WAT" duration-ms="11996" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewCASAccount()[pri:1, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="viewCASAccount" duration-ms="22621" started-at="2020-10-11T16:41:16 WAT" finished-at="2020-10-11T16:41:38 WAT">
+        <test-method signature="viewCASAccount()[pri:1, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:25:49 WAT" name="viewCASAccount" finished-at="2020-11-07T21:26:20 WAT" duration-ms="30462" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- viewCASAccount -->
-        <test-method status="PASS" signature="searchByAccountName()[pri:2, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="searchByAccountName" duration-ms="3190" started-at="2020-10-11T16:41:38 WAT" finished-at="2020-10-11T16:41:42 WAT">
+        <test-method signature="searchByAccountName()[pri:2, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:26:20 WAT" name="searchByAccountName" finished-at="2020-11-07T21:26:23 WAT" duration-ms="3312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByAccountName -->
-        <test-method status="PASS" signature="searchByAccountNumber()[pri:3, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="searchByAccountNumber" duration-ms="3032" started-at="2020-10-11T16:41:42 WAT" finished-at="2020-10-11T16:41:45 WAT">
+        <test-method signature="searchByAccountNumber()[pri:3, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:26:23 WAT" name="searchByAccountNumber" finished-at="2020-11-07T21:26:28 WAT" duration-ms="5240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByAccountNumber -->
-        <test-method status="PASS" signature="searchByAccountEmail()[pri:4, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="searchByAccountEmail" duration-ms="3307" started-at="2020-10-11T16:41:45 WAT" finished-at="2020-10-11T16:41:48 WAT">
+        <test-method signature="searchByAccountEmail()[pri:4, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:26:28 WAT" name="searchByAccountEmail" finished-at="2020-11-07T21:26:32 WAT" duration-ms="3112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByAccountEmail -->
-        <test-method status="PASS" signature="viewAccountBalance()[pri:5, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="viewAccountBalance" duration-ms="6440" started-at="2020-10-11T16:41:48 WAT" finished-at="2020-10-11T16:41:54 WAT">
+        <test-method signature="viewAccountBalance()[pri:5, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:26:32 WAT" name="viewAccountBalance" finished-at="2020-11-07T21:26:38 WAT" duration-ms="6469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewAccountBalance -->
-        <test-method status="PASS" signature="editCustomerAccount()[pri:6, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="editCustomerAccount" duration-ms="22256" started-at="2020-10-11T16:41:54 WAT" finished-at="2020-10-11T16:42:17 WAT">
+        <test-method signature="editCustomerAccount()[pri:6, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:26:38 WAT" name="editCustomerAccount" finished-at="2020-11-07T21:27:18 WAT" duration-ms="40077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomerAccount -->
-        <test-method status="PASS" signature="createCustomerAccount()[pri:7, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="createCustomerAccount" duration-ms="24737" started-at="2020-10-11T16:42:17 WAT" finished-at="2020-10-11T16:42:41 WAT">
+        <test-method signature="createCustomerAccount()[pri:7, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:27:18 WAT" name="createCustomerAccount" finished-at="2020-11-07T21:27:42 WAT" duration-ms="23918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomerAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@5702b3b1]" name="tearDown" is-config="true" duration-ms="212" started-at="2020-10-11T16:42:41 WAT" finished-at="2020-10-11T16:42:42 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerAccountManagement@3541cb24]" started-at="2020-11-07T21:27:42 WAT" name="tearDown" finished-at="2020-11-07T21:27:43 WAT" duration-ms="939" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kuda.testCases.CustomerAccountManagement -->
-      <class name="com.kuda.testCases.GeneralLedgerManagement">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="setUp" is-config="true" duration-ms="9372" started-at="2020-10-11T16:46:46 WAT" finished-at="2020-10-11T16:46:56 WAT">
+      <class name="com.kuda.postingsMgt.ValidateSingleJournalTransfer">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@13b13b5d]" started-at="2020-11-07T21:34:14 WAT" name="setUp" finished-at="2020-11-07T21:34:25 WAT" duration-ms="11100" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewGLAccounts()[pri:1, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="viewGLAccounts" duration-ms="16465" started-at="2020-10-11T16:46:56 WAT" finished-at="2020-10-11T16:47:12 WAT">
+        <test-method signature="glToglTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@13b13b5d]" started-at="2020-11-07T21:34:25 WAT" name="glToglTransfer" finished-at="2020-11-07T21:35:10 WAT" duration-ms="44546" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- glToglTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateSingleJournalTransfer@13b13b5d]" started-at="2020-11-07T21:35:10 WAT" name="tearDown" finished-at="2020-11-07T21:35:11 WAT" duration-ms="898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kuda.postingsMgt.ValidateSingleJournalTransfer -->
+      <class name="com.kuda.testCases.GeneralLedgerManagement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:35:11 WAT" name="setUp" finished-at="2020-11-07T21:35:22 WAT" duration-ms="11482" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewGLAccounts()[pri:1, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:35:22 WAT" name="viewGLAccounts" finished-at="2020-11-07T21:36:24 WAT" duration-ms="62084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- viewGLAccounts -->
-        <test-method status="PASS" signature="searchGLByName()[pri:2, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="searchGLByName" duration-ms="4692" started-at="2020-10-11T16:47:12 WAT" finished-at="2020-10-11T16:47:17 WAT">
+        <test-method signature="searchGLByName()[pri:2, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:36:24 WAT" name="searchGLByName" finished-at="2020-11-07T21:36:37 WAT" duration-ms="12110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGLByName -->
-        <test-method status="PASS" signature="searchGLByCode()[pri:3, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="searchGLByCode" duration-ms="6688" started-at="2020-10-11T16:47:17 WAT" finished-at="2020-10-11T16:47:23 WAT">
+        <test-method signature="searchGLByCode()[pri:3, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:36:37 WAT" name="searchGLByCode" finished-at="2020-11-07T21:36:48 WAT" duration-ms="11624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGLByCode -->
-        <test-method status="PASS" signature="viewGLBalance()[pri:4, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="viewGLBalance" duration-ms="2307" started-at="2020-10-11T16:47:23 WAT" finished-at="2020-10-11T16:47:26 WAT">
+        <test-method signature="viewGLBalance()[pri:4, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:36:48 WAT" name="viewGLBalance" finished-at="2020-11-07T21:36:51 WAT" duration-ms="2425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewGLBalance -->
-        <test-method status="PASS" signature="editGeneralLedgerAccount()[pri:5, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="editGeneralLedgerAccount" duration-ms="0" started-at="2020-10-11T16:47:26 WAT" finished-at="2020-10-11T16:47:26 WAT">
+        <test-method signature="editGeneralLedgerAccount()[pri:5, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:36:51 WAT" name="editGeneralLedgerAccount" finished-at="2020-11-07T21:36:51 WAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editGeneralLedgerAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.GeneralLedgerManagement@73846619]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-10-11T16:47:26 WAT" finished-at="2020-10-11T16:47:26 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.GeneralLedgerManagement@2892dae4]" started-at="2020-11-07T21:36:51 WAT" name="tearDown" finished-at="2020-11-07T21:36:51 WAT" duration-ms="849" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kuda.testCases.GeneralLedgerManagement -->
       <class name="com.kuda.postingsMgt.ValidateLocalTransfer">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@4b952a2d]" name="setUp" is-config="true" duration-ms="33276" started-at="2020-10-11T16:43:37 WAT" finished-at="2020-10-11T16:44:10 WAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@40cb8df7]" started-at="2020-11-07T21:32:46 WAT" name="setUp" finished-at="2020-11-07T21:33:04 WAT" duration-ms="17586" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLocalFundTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@4b952a2d]" name="verifyLocalFundTransfer" duration-ms="76239" started-at="2020-10-11T16:44:10 WAT" finished-at="2020-10-11T16:45:26 WAT">
+        <test-method signature="verifyLocalFundTransfer()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@40cb8df7]" started-at="2020-11-07T21:33:04 WAT" name="verifyLocalFundTransfer" finished-at="2020-11-07T21:34:14 WAT" duration-ms="69609" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLocalFundTransfer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@4b952a2d]" name="tearDown" is-config="true" duration-ms="189" started-at="2020-10-11T16:45:26 WAT" finished-at="2020-10-11T16:45:27 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.postingsMgt.ValidateLocalTransfer@40cb8df7]" started-at="2020-11-07T21:34:14 WAT" name="tearDown" finished-at="2020-11-07T21:34:14 WAT" duration-ms="815" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kuda.postingsMgt.ValidateLocalTransfer -->
       <class name="com.kuda.testCases.CustomerInfoManagement">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="setUp" is-config="true" duration-ms="9651" started-at="2020-10-11T16:42:42 WAT" finished-at="2020-10-11T16:42:51 WAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:27:43 WAT" name="setUp" finished-at="2020-11-07T21:32:46 WAT" duration-ms="303415" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewCustomers()[pri:1, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="viewCustomers" duration-ms="21196" started-at="2020-10-11T16:42:51 WAT" finished-at="2020-10-11T16:43:12 WAT">
+        <test-method signature="viewCustomers()[pri:1, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="viewCustomers" finished-at="2020-11-07T21:32:46 WAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewCustomers -->
-        <test-method status="PASS" signature="searchCustomerByName()[pri:2, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="searchCustomerByName" duration-ms="3708" started-at="2020-10-11T16:43:12 WAT" finished-at="2020-10-11T16:43:16 WAT">
+        <test-method signature="searchCustomerByName()[pri:2, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="searchCustomerByName" finished-at="2020-11-07T21:32:46 WAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCustomerByName -->
-        <test-method status="PASS" signature="searchByCustomerEmail()[pri:3, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="searchByCustomerEmail" duration-ms="3575" started-at="2020-10-11T16:43:16 WAT" finished-at="2020-10-11T16:43:20 WAT">
+        <test-method signature="searchByCustomerEmail()[pri:3, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="searchByCustomerEmail" finished-at="2020-11-07T21:32:46 WAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByCustomerEmail -->
-        <test-method status="PASS" signature="searchCustomerById()[pri:4, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="searchCustomerById" duration-ms="3610" started-at="2020-10-11T16:43:20 WAT" finished-at="2020-10-11T16:43:23 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchCustomerById -->
-        <test-method status="PASS" signature="createCustomer()[pri:5, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="createCustomer" duration-ms="13456" started-at="2020-10-11T16:43:23 WAT" finished-at="2020-10-11T16:43:37 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@69ea3742]" name="tearDown" is-config="true" duration-ms="157" started-at="2020-10-11T16:43:37 WAT" finished-at="2020-10-11T16:43:37 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="tearDown" finished-at="1970-01-01T01:00:00 WAT" duration-ms="-1604781166849" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method signature="createCustomer()[pri:5, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="createCustomer" finished-at="2020-11-07T21:32:46 WAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="searchCustomerById()[pri:4, instance:com.kuda.testCases.CustomerInfoManagement@2177849e]" started-at="2020-11-07T21:32:46 WAT" name="searchCustomerById" finished-at="2020-11-07T21:32:46 WAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 298.492
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D068G7Q', ip: '192.168.43.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Gbenga\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b5250ceb8694cc9135cd900d32881c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.kuda.base.TestBase.setUp(TestBase.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerById -->
       </class> <!-- com.kuda.testCases.CustomerInfoManagement -->
       <class name="com.kuda.testCases.ValidateLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kuda.testCases.ValidateLogin@ff5b51f]" name="setUp" is-config="true" duration-ms="8918" started-at="2020-10-11T16:40:25 WAT" finished-at="2020-10-11T16:40:34 WAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kuda.testCases.ValidateLogin@e1de817]" started-at="2020-11-07T21:23:19 WAT" name="setUp" finished-at="2020-11-07T21:24:00 WAT" duration-ms="41215" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleSign()[pri:1, instance:com.kuda.testCases.ValidateLogin@ff5b51f]" name="googleSign" duration-ms="6066" started-at="2020-10-11T16:40:34 WAT" finished-at="2020-10-11T16:40:40 WAT">
+        <test-method signature="googleSign()[pri:0, instance:com.kuda.testCases.ValidateLogin@e1de817]" started-at="2020-11-07T21:24:01 WAT" name="googleSign" description="This TestCase will perform valid login" finished-at="2020-11-07T21:24:13 WAT" duration-ms="12044" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test Completed Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- googleSign -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kuda.testCases.ValidateLogin@ff5b51f]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-10-11T16:40:40 WAT" finished-at="2020-10-11T16:40:40 WAT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kuda.testCases.ValidateLogin@e1de817]" started-at="2020-11-07T21:24:13 WAT" name="tearDown" finished-at="2020-11-07T21:24:13 WAT" duration-ms="860" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kuda.testCases.ValidateLogin -->

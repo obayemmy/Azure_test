@@ -225,22 +225,18 @@ public class CustomerAccountManagement extends TestBase {
         scollDown.executeScript("window.scrollBy(0,800)");
         Thread.sleep(2000);
         //select statement deliverymode radio button
-        Actions actions = new Actions(driver);
-        WebElement statementDelivery = driver.findElement(By.id(Utility.fetchLocator("emailDeliveryMode_ID")));
-        actions.doubleClick(statementDelivery).perform();
-        Thread.sleep(2000);
-
+        doubleClick("emailDeliveryMode_ID");
 //		WebElement statementDelivery = driver.findElement(By.id(Utility.fetchLocator("emailDeliveryMode_ID")));
 //		statementDelivery.click();
         //Select frequency
 //		WebElement frequencyRadioBtn = driver.findElement(By.id(Utility.fetchLocator("frequency_ID")));
 //		frequencyRadioBtn.click();
-
-        Actions clickFrequencyBtn = new Actions(driver);
-        WebElement frequencyRadioBt = driver.findElement(By.id(Utility.fetchLocator("frequency_ID")));
-        clickFrequencyBtn.doubleClick(frequencyRadioBt).perform();
-        Thread.sleep(2000);
-        System.out.println("test ran successfully ");
+        doubleClick("frequency_ID");
+//        Actions clickFrequencyBtn = new Actions(driver);
+//        WebElement frequencyRadioBt = driver.findElement(By.id(Utility.fetchLocator("frequency_ID")));
+//        clickFrequencyBtn.doubleClick(frequencyRadioBt).perform();
+//        Thread.sleep(2000);
+//        System.out.println("test ran successfully ");
 
 
     }

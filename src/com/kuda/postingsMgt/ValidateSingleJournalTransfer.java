@@ -49,7 +49,7 @@ public class ValidateSingleJournalTransfer extends TestBase{
 		Thread.sleep(3000);
 		JavascriptExecutor scollDown= (JavascriptExecutor)driver;
 		scollDown.executeScript("window.scrollBy(0,500)");
-		
+
 		//Completing crediting GL details
 		//search gL code
 		WebElement glSearchField = driver.findElement(By.id(Utility.fetchLocator("gLCodeSearchField_ID")));
@@ -68,30 +68,30 @@ public class ValidateSingleJournalTransfer extends TestBase{
 		WebElement narration = driver.findElement(By.name(Utility.fetchLocator("narrationField_NAME")));
 		narration.sendKeys(Utility.fetchLocator("narrationText"));
 		//Enter instrumenr number
-	    Select entryCode = new Select(driver.findElement(By.id(Utility.fetchLocator("entryCodeDrpdwn_ID"))));
-	    entryCode.selectByVisibleText("Journal Posting btw GLs - C318");
-	    
-	    //Final Completion of Debiting GL
-	    Select debitBranch =  new Select(driver.findElement(By.id(Utility.fetchLocator("brandcDrpdwn2_ID"))));
-	    debitBranch.selectByVisibleText("Head Office Branch");
-	    //Enter debit amount
-	    WebElement debitAmount = driver.findElement(By.id(Utility.fetchLocator("debitAmountField_ID")));
-	    debitAmount.clear();
-	    debitAmount.sendKeys(Utility.fetchLocator("debitAmountText"));
-	  //  Select debit entry code
-	    Select debitEntryCode =new Select(driver.findElement(By.id(Utility.fetchLocator("debitEntryCodeDrpdwn_ID"))));
-	    debitEntryCode.selectByVisibleText("Journal Posting btw GLs - D318");
-	       
+		Select entryCode = new Select(driver.findElement(By.id(Utility.fetchLocator("entryCodeDrpdwn_ID"))));
+		entryCode.selectByVisibleText("Journal Posting btw GLs - C318");
+
+		//Final Completion of Debiting GL
+		Select debitBranch =  new Select(driver.findElement(By.id(Utility.fetchLocator("brandcDrpdwn2_ID"))));
+		debitBranch.selectByVisibleText("Head Office Branch");
+		//Enter debit amount
+		WebElement debitAmount = driver.findElement(By.id(Utility.fetchLocator("debitAmountField_ID")));
+		debitAmount.clear();
+		debitAmount.sendKeys(Utility.fetchLocator("debitAmountText"));
+		//  Select debit entry code
+		Select debitEntryCode =new Select(driver.findElement(By.id(Utility.fetchLocator("debitEntryCodeDrpdwn_ID"))));
+		debitEntryCode.selectByVisibleText("Journal Posting btw GLs - D318");
+
 		JavascriptExecutor scroll= (JavascriptExecutor)driver;
 		scroll.executeScript("window.scrollBy(0,500)");
-		 Thread.sleep(3000);
-	    //Click post transaction button
-	    WebElement postTransactionBtn = driver.findElement(By.id(Utility.fetchLocator("postTransactionBtn_ID")));
-	    postTransactionBtn.click();
-		 Thread.sleep(3000);
-	    //Need to click yess and verify the success message
-	  
-		
+		Thread.sleep(3000);
+		//Click post transaction button
+		WebElement postTransactionBtn = driver.findElement(By.id(Utility.fetchLocator("postTransactionBtn_ID")));
+		postTransactionBtn.click();
+		Thread.sleep(3000);
+		//Need to click yess and verify the success message
+
+
 	}
 
 }
